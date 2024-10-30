@@ -1,0 +1,122 @@
+#widget-customizer-control-templates, .control-section.control-section-sidebar, .customize-control-sidebar_widgets .hide-if-js, .customize-control-sidebar_widgets label, .customize-control-widget_form .widget-control-save{
+display:block;
+}
+
+a.oneline-docs-to-pro-button {
+	background: rgba(0, 128, 0, 0.75);
+	padding: 5px;
+	border-radius: 2px;
+	color: #fff;
+	position: relative;
+	top: 7px;
+}
+.widget-content .wp-picker-input-wrap label{
+padding-bottom:0px;
+display:inherit;
+padding-top: 0px;
+
+}
+#accordion-section-sidebar-widgets-magazine-widget h3,#accordion-section-sidebar-widgets-magazine-widget-second h3,#accordion-section-sidebar-widgets-magazine-widget-third h3{
+background:#eee!important;
+}
+
+#available-widgets #available-widgets-list div[class*="magazina-section-news"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-section-two"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-section-one"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-section-three"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-section-four"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-section-five"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-section-add"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-section-six"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-section-banner"] .widget-title::before{
+content: "\f132";
+color:#66cda9;
+}
+#available-widgets #available-widgets-list div[class*="magazina-section-seven"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="advanced-recent-posts"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-about-me-widget"] .widget-title::before,
+#available-widgets #available-widgets-list div[class*="magazina-social-widget"] .widget-title::before{
+  content: "\f132";
+  color:#00a0d2;  
+}
+a.button.pro-button-secondary.alignright {
+    background: #03a9f4;
+}
+#customize-control-mg_cat_break_color  hr{
+	display:none;
+}
+#customize-control-top_header_color .blogwings.description,
+#customize-control-header_color .blogwings.description,
+#customize-control-mg_cat_break_color .description,
+#customize-control-mg_view_break_color .description{
+    text-transform: uppercase;
+    padding: 6px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #3c4788;
+    border-bottom: 1px #ededed solid;
+    display: block;
+    border-top: 1px #ededed solid;
+    color: #fff;
+    font-style: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.customize-control input[type=number], 
+.customize-control input[type=search], 
+.customize-control input[type=tel], 
+.customize-control input[type=url], 
+.customize-control input[type=text], 
+.customize-control input[type=password], 
+.customize-control input[type=email]{
+width: 100%;
+height: 36px;
+line-height: 36px;
+}
+
+.customize-control select {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+}
+.customize-control-checkbox input[type="checkbox"], .customize-control-checkbox-multiple input[type="checkbox"] {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.customize-control-checkbox input[type="checkbox"]:checked:before, .customize-control-checkbox-multiple input[type="checkbox"]:checked:before {
+    content: "\f147";
+    font-family: dashicons;
+    font-size: 23px;
+    left: 0;
+    top: 2px;
+}
+
+.customize-control-checkbox label{
+font-size:14px;
+}
+body.wp-customizer .wp-picker-input-wrap .button {
+    margin-left: 0;
+    float: right;
+    height: 36;
+}
+.wp-picker-container input[type=text].wp-color-picker {
+    width: 65px;
+    font-size: 12px;
+    font-family: monospace;
+    line-height: 16px;
+    margin: 0;
+    vertical-align: top;
+    height: auto;
+}
+.widget .widget-content label{
+margin-bottom:10px;
+display:block;
+
+}
